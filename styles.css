@@ -18,12 +18,14 @@ nav
 ul
 {
 	display: flex;
+	padding: 0;
+	
 }
 
 li
 {
 	list-style: none;
-	border: 2px solid white;
+	height: 100%;
 	
 }
 
@@ -32,4 +34,16 @@ li:hover
 	background-color: #b90e4d;
 	cursor: pointer;
 }
+
+.left li
+{
+	border-left: 2px solid white;
+}
+
+.right li
+{
+	border-right: 2px solid white;
+}
+
+
 
