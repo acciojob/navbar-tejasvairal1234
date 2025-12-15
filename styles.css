@@ -1,49 +1,35 @@
-/*  your css code here. If applicable */
-body
-{
-	margin:0;
+body {
+	margin: 0;
 }
 
-nav
-{
+nav {
 	display: flex;
 	justify-content: space-between;
-	margin: 0;
 	background-color: #6e072d;
 	color: white;
 	font-size: 18px;
-	
 }
 
-ul
-{
+ul {
 	display: flex;
+	margin: 0;
 	padding: 0;
-	
 }
 
-li
-{
+li {
 	list-style: none;
-	height: 100%;
-	
-}
-
-li:hover
-{
-	background-color: #b90e4d;
+	padding: 18px 27px;
 	cursor: pointer;
 }
 
-.left li
-{
+li:hover {
+	background-color: #b90e4d;
+}
+
+.left li:not(:first-child) {
 	border-left: 2px solid white;
 }
 
-.right li
-{
+.right li:not(:last-child) {
 	border-right: 2px solid white;
 }
-
-
-
